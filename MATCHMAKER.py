@@ -24,7 +24,8 @@ class Persona:
         return f'{self.nombre} {self.edad} {self.genero} {self.preferencia} {self.gustos} {self.divertidx}'
 
   def genderFilter(self, other):
-      if(self.genero == other.preferencia and other.genero == self.preferencia):
+      
+      if(self.genero in other.preferencia and other.genero in self.preferencia):
           return True
       else: return False  
       
@@ -73,8 +74,11 @@ def randomlyGenerateObjects(n):
         concursantes.append(Persona(i,
                                     random.choice(string.ascii_letters), 
                                     random.randrange(20,23,1),                                    
-                                    [random.choice(["m","f", "nb", "o"])],
-                                    [random.choice(["m","f", "nb", "o"])],
+                                    random.choice(["m","f", "nb", "o"]),
+                                    [
+                                        random.choice(["m","f", "nb", "o"]),
+                                        random.choice(["m","f", "nb", "o", ""])
+                                    ],
                                     [
                                        random.choice(["a","b","c","d"]), 
                                        random.choice(["e","f","g","h"]),
