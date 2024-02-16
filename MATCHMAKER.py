@@ -1,15 +1,18 @@
 import random
 import string
 from collections import Counter
+import pandas as pd
 
 
 class Persona:
-  def __init__(self, id, nombre, edad, genero, preferencia, gustos, 
+  def __init__(self, id, email,nombre,telefono, edad, genero, preferencia, gustos, 
                divertidx):
     self.id = id  
+    self.email = email
     self.nombre = nombre
+    self.telefono = telefono
     self.edad = edad
-    self.menorEdad = True if edad <= 18 else False
+    self.menorEdad = True if edad < 18 else False
     self.genero = genero
     self.preferencia = preferencia
     self.gustos = gustos
@@ -18,10 +21,10 @@ class Persona:
     self.matches2 = []
     
   def __str__(self):
-    return f'{self.nombre} {self.edad} {self.genero} {self.preferencia} {self.gustos} {self.divertidx}'
+    return f"""{self.nombre} {self.edad} {self.genero} {self.preferencia} {self.divertidx}"""
 
   def __repr__(self):
-        return f'{self.nombre} {self.edad} {self.genero} {self.preferencia} {self.gustos} {self.divertidx}'
+        return f'{self.nombre} {self.edad} {self.genero} {self.preferencia}  {self.divertidx}'
 
   def genderFilter(self, other):
       
@@ -35,7 +38,7 @@ class Persona:
       else: return False  
       
   def ageFilter(self, other):
-      if(abs(self.edad - other.edad) < 3):
+      if(abs(self.edad - other.edad) <= 3):
           return True 
       else: return False          
   
@@ -62,11 +65,13 @@ class Persona:
     if (self.divertidx != other.divertidx):
         return True
     else: return False  
-    
+
+
 
 def displayMatches(concursantes):
     for i in concursantes:
         print(f"{i.id} - NOMBRE: {i.nombre} MATCHES: {i.matches}")
+        print("\n")
 
 def randomlyGenerateObjects(n):
     concursantes = []
@@ -129,7 +134,7 @@ def hobbFilter(concursantes, n):
             i.matches.append(list(cosineValsSorted)[0])
 
                    
-    i.matches2 = []
+        i.matches2 = []
 
 def matchmaker(concursantes):
     initialFilter(concursantes)
@@ -167,20 +172,47 @@ def solveForUnMatches(matches):
     matchmakerMinus(genteSola)
     
     
-conc = randomlyGenerateObjects(30)
-print("\n")
+#conc = randomlyGenerateObjects(30)
+
+
+df = pd.read_excel('Matchmaker.xlsx', sheet_name='Sheet1') 
+
+
+afortunados = df.values.tolist()
+afortunados_instances = []
+
+    
+def setUpDataBase(afortunados, afortunados_instances):
+    
+    for p in afortunados:
+        afortunados_instances.append(Persona(*p))
+    
+    for p in afortunados_instances:
+        prefsToList = list(p.preferencia.split(";"))
+        print(prefsToList)
+        prefsToList.remove("")
+        p.preferencia = prefsToList
+        
+        gustosToList = list(p.gustos.split(";"))
+        p.gustos = gustosToList
+
+    
+
+setUpDataBase(afortunados, afortunados_instances)
+
+print(afortunados_instances)
 
 print("MATCHESS")
-matchmaker(conc)
-displayMatches(conc)
+matchmaker(afortunados_instances)
+displayMatches(afortunados_instances)
 
 print("\n")
 print("MATCHESS BUT NO MATCHES SOLVED")
-solveForMatchButNoMatch(conc)
-displayMatches(conc)
+solveForMatchButNoMatch(afortunados_instances)
+displayMatches(afortunados_instances)
 
 print("\n")
 print("UNMATCHESS SOLVED")
-solveForUnMatches(conc)
-displayMatches(conc)
+solveForUnMatches(afortunados_instances)
+displayMatches(afortunados_instances)
 
