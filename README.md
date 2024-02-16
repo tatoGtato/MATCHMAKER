@@ -21,3 +21,5 @@
 - No importan los nombres de las columnas, solo importa el orden.
 
 - Ojala muxos consigan el amor uwu
+
+-P.D: Tiene una complejidad aproximada de O(n²)
