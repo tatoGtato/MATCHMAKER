@@ -22,4 +22,10 @@
 
 - Ojala muxos consigan el amor uwu
 
--P.D: Tiene una complejidad aproximada de O(n²)
+- Alfinal del codigo se tienen que ejecutar 3 funciones
+    - matchmaker()
+      - Esta funcion hace un emparejamiento inicial
+    - solveForMatchButNoMatch()
+      - Esta funcion soluciona el proble que una persona matchee copn otra pero no viseversa
+    - solveForUnMatches()
+      - Esta funcion es una version menos "EStricta" del match maker para que la gente que haya quedado sola encuentre a alguien (no tan cul, pero a alguien xd)
