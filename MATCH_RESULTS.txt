@@ -1,0 +1,88 @@
+1 - NOMBRE: Juan Manuel Dávila Rivera MATCHES: [Gabriela Forero Herrera 19 Femenino ['Masculino']  Ambivertida]
+
+
+2 - NOMBRE: Daniel José Morales Ramírez MATCHES: []
+
+
+3 - NOMBRE: Gabriela Aldana Aldana MATCHES: [Julieta Montoya Quintero 20 Femenino ['Femenino']  Introvertida]
+
+
+4 - NOMBRE: Ángel David López Espejo MATCHES: [Gabriela Forero Herrera 19 Femenino ['Masculino']  Ambivertida]
+
+
+5 - NOMBRE: Juan José Reina Reyes MATCHES: [Gabriela Forero Herrera 19 Femenino ['Masculino']  Ambivertida]
+
+
+6 - NOMBRE: Camilo Andres Perdomo Bogotá MATCHES: [Daniela Olmos Becerra 22 Femenino ['Masculino']  Extrovertida]
+
+
+7 - NOMBRE: Juan Esteban Torres Cortés MATCHES: [Gabriela Forero Herrera 19 Femenino ['Masculino']  Ambivertida]
+
+
+8 - NOMBRE: Kevin Sebastian Canchila Rodriguez MATCHES: [Gabriela Forero Herrera 19 Femenino ['Masculino']  Ambivertida]
+
+
+9 - NOMBRE: Juan Felipe Fajardo Tejada MATCHES: [Daniela Olmos Becerra 22 Femenino ['Masculino']  Extrovertida]
+
+
+10 - NOMBRE: Julieta Montoya Quintero MATCHES: [Gabriela Aldana Aldana 18 Femenino ['Femenino']  Introvertida]
+
+
+11 - NOMBRE: Valeria Arce Montañez MATCHES: []
+
+
+12 - NOMBRE: Juan José Pérez Céspedes MATCHES: [Jenniffer Camila Rojas Rodriguez 22 Femenino ['Masculino']  Ambivertida]
+
+
+13 - NOMBRE: Laura Sofía Ortiz Merchán MATCHES: [Juan José Caballero Fernandez 21 Masculino ['Femenino', 'No binario']  Ambivertida]
+
+
+14 - NOMBRE: Santiago Gomez Corrales MATCHES: [Ana Camila Gomez Hernandez 17 Femenino ['Masculino']  Introvertida]
+
+
+15 - NOMBRE: Mauricio Eduardo García Caicedo MATCHES: [Janier Santiago Calderón Montoya 20 Masculino ['Masculino']  Ambivertida]
+
+
+16 - NOMBRE: Santiago Muñoz Gomez MATCHES: [Daniela Olmos Becerra 22 Femenino ['Masculino']  Extrovertida]
+
+
+17 - NOMBRE: Juan José Caballero Fernandez MATCHES: [Daniela Olmos Becerra 22 Femenino ['Masculino']  Extrovertida, Laura Sofía Ortiz Merchán 18 No binario ['Femenino', 'Masculino', 'No binario', 'Otros']  Extrovertida]
+
+
+19 - NOMBRE: Janier Santiago Calderón Montoya MATCHES: [Mauricio Eduardo García Caicedo 20 Masculino ['Masculino']  Introvertida]
+
+
+20 - NOMBRE: Daniel Estrada Patino MATCHES: [Daniela Olmos Becerra 22 Femenino ['Masculino']  Extrovertida]
+
+
+21 - NOMBRE: Gabriela Forero Herrera MATCHES: [Ángel David López Espejo 22 Masculino ['Femenino']  Introvertida, Juan Manuel Dávila Rivera 21 Masculino ['Femenino']  Introvertida, Juan José Reina Reyes 18 Masculino ['Femenino']  Extrovertida, Juan Esteban Torres Cortés 18 Masculino ['Femenino']  Introvertida, Kevin Sebastian Canchila Rodriguez 20 Masculino ['Femenino']  Introvertida, Juan Nicolas Toquica Guerrero 20 Masculino ['Femenino']  Introvertida]
+
+
+22 - NOMBRE: Daniela Olmos Becerra MATCHES: [Fabio Andres Rizo Montoya 21 Masculino ['Femenino']  Ambivertida, Camilo Andres Perdomo Bogotá 19 Masculino ['Femenino']  Ambivertida, Juan Felipe Fajardo Tejada 19 Masculino ['Femenino']  Ambivertida, Santiago Muñoz Gomez 20 Masculino ['Femenino']  Ambivertida, Juan José Caballero Fernandez 21 Masculino ['Femenino', 'No binario']  Ambivertida, Daniel Estrada Patino 22 Masculino ['Femenino']  Ambivertida, Juan Nicolas Quintero Quintero 21 Masculino ['Femenino']  Ambivertida]
+
+
+23 - NOMBRE: Juan Nicolas Toquica Guerrero MATCHES: [Gabriela Forero Herrera 19 Femenino ['Masculino']  Ambivertida]
+
+
+24 - NOMBRE: Jenniffer Camila Rojas Rodriguez MATCHES: [Juan José Pérez Céspedes 19 Masculino ['Femenino']  Introvertida]
+
+
+25 - NOMBRE: Santiago Enrique Gómez Torrado MATCHES: [Ana Camila Gomez Hernandez 17 Femenino ['Masculino']  Introvertida]
+
+
+26 - NOMBRE: Ana Camila Gomez Hernandez MATCHES: [Santiago Enrique Gómez Torrado 17 Masculino ['Femenino']  Ambivertida, Santiago Gomez Corrales 17 Masculino ['Femenino']  Ambivertida]
+
+
+27 - NOMBRE: Arthur Sebastian Araujo Perez MATCHES: []
+
+
+28 - NOMBRE: María Lucía Mendoza Gómez MATCHES: []
+
+
+29 - NOMBRE: Jan Nikolai Guzman Gomez MATCHES: []
+
+
+30 - NOMBRE: Fabio Andres Rizo Montoya MATCHES: [Daniela Olmos Becerra 22 Femenino ['Masculino']  Extrovertida]
+
+
+31 - NOMBRE: Juan Nicolas Quintero Quintero MATCHES: [Daniela Olmos Becerra 22 Femenino ['Masculino']  Extrovertida]
